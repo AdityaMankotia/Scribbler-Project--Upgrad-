@@ -1,7 +1,7 @@
 //get confirmation modal
 var conModel=document.getElementsByClassName("confirmboxmodal")[0];
 //return trash icon css selector
-var conbtn=document.querySelectorAll("div >i");
+var conbtn=document.querySelectorAll("i");
 //get no button
 var conNo=document.getElementById("n");
 var k;
