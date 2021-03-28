@@ -7,6 +7,7 @@
         <link href='https://fonts.googleapis.com/css?family=Marck+Script|Satisfy' rel='stylesheet'>
         <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+        <!--By Aditya Mankotia-->
     </head>
     <body>
         <!--Header-->
@@ -56,10 +57,37 @@
     </div>
 </div>
 <div class="postcontainer">
-    <h1 id="postheading">The legacy of Tendo Pain</h1>
+    <p id="postheading">The legacy of Tendo Pain</p>
     <!--input field for editing part -->
-    <input type="text" id="edit">
-    <div></div>
+    <input type="text" id="editing">
+    <div class="nameEdit">
+        <p id="name">Tendo Pain</p>
+        <button id="edit" onclick="editPost()">Edit <img src="https://img.icons8.com/metro/15/ffffff/edit-property.png"/></button>
+        <button id="save" onclick="savePost()">Save <img src="https://img.icons8.com/ios-filled/15/ffffff/save--v1.png"/></button>
+    </div>
+    <p id="post">Even the most ignorant, innocent child will eventually grow up as they learn what true pain is. It affects what they 
+    say, what they think… and they become real people.Learn to embrace the fear of feeling about what it’s like to contemplate what it 
+    is to know true pain. Because when I had nothing and no one – I always had pain.If you don’t share the pain with someone, you will 
+    never understand the pain.There is no such thing as real peace! It’s impossible as long as we live in this accursed world!We are but 
+    men, drawn to act in the name of revenge that we deem to be justice. But if there is justice in revenge, then that same justice will 
+    breed only more revenge and trigger a cycle of hatred.Sometimes you must hurt in order to know, fall in order to grow, lose in order 
+    to grow because life’s greatest struggle in through the pain.Do you understand pain a little now? If you don’t share someone’s pain, 
+    you can never understand them. But just because you understand them doesn’t mean you can come to an agreement. That’s the truth.You 
+    think you’re the only ones who matter. You think you can put off death. But that peace made you foolish and thoughtless. If you kill 
+    someone, someone else will kill you… this hatred binds us together.Religion, ideology, resources, land, spite, love or just because. 
+    No matter how pathetic the reason, it’s enough to start a war.</p>
+    <!--textarea for edit-->
+    <textarea id="postedit"></textarea>
+    <button id="like" onclick="likePost()"><img src="https://img.icons8.com/fluent-systems-filled/20/ffffff/facebook-like.png"/>Like</button>
+    <p id="likes">Be first one to like this!</p>
+    <textarea id="comments" placeholder="Leave a comment..."></textarea><br>
+    <button id="commentButton" onclick="postComment()">Comment</button>
+    <h3 id="commentHeading">All Comments</h3>
+    <div id="allComment">
+
+    </div>
 </div>
+<script src="../scripts/post.js"></script>
+<script src="../scripts/header.js"></script>
     </body>
 </html>

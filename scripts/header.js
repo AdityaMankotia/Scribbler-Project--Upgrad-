@@ -40,3 +40,5 @@ function signUp() {
     signin.style.display = "none";
     signup.style.display = "block";
   }
+
+  //By Aditya Mankotia

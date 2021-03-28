@@ -16,4 +16,4 @@ createmodalSpan.onclick = function() {
 createPostBtn.onclick = function() {
   createPost.style.display = "block";
 }
-  
+  //By Aditya Mankotia
