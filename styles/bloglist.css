@@ -1,0 +1,85 @@
+/*all post body styling*/
+body{
+    background-color: orange;
+}
+/*confirm box styling*/
+.confirmboxmodal
+{
+    position: fixed;
+    display: none;
+    z-index:2;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    margin: -5px;
+}
+.confirmbox{
+    border: none;
+    padding: 15px 20px;
+    background-color: white;
+    color: black;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    width: 30%;
+    text-align: center;
+}
+.confirmbox h1{
+    font-size: 18px;
+    align-items: center;
+}
+.confirmboxbtn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.confirmboxbtn button{
+    margin: 0 20%;
+    padding:2% 10%;
+    color: white;
+    border: none;
+}
+#y{
+    background-color: #ff4d4d;
+}
+#n{
+    background-color: #4CAF50;
+}
+/*all post modals*/
+.allpostcontainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.blogpost{
+    margin: 10px 20px 10px 20px;
+    width: 40%;
+    border-radius: 20px;
+    display: flex;
+    background-color: white;
+    overflow: hidden;
+}
+.blogpost h1{
+    font-size: 20px;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 0px 20px;
+}
+.blogpostcontent{
+    background-color: #dddddd;
+    padding: 10px 20px;
+}
+.blogpostcontent img{
+    float:right;
+}
+.blogpostcontent p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 55px;
+}
+.blogpostcontent i{
+    float: right;
+    cursor: pointer;
+}
